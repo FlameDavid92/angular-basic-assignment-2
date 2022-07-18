@@ -11,4 +11,8 @@ export class AppComponent {
   onClickButton() {
     this.username = '';
   }
+
+  isEmptyUsername() {
+    return this.username.trim().length === 0;
+  }
 }

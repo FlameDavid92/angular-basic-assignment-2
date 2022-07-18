@@ -24,7 +24,7 @@
     <div class="col-2">
       <button
         class="btn btn-primary mt-2"
-        [disabled]="username.trim().length === 0"
+        [disabled]="isEmptyUsername()"
         (click)="onClickButton()"
       >
         Clear
