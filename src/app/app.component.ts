@@ -8,7 +8,7 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent {
   username = '';
 
-  onClickButton() {
+  onClear() {
     this.username = '';
   }
 
